@@ -1,0 +1,9 @@
+{
+	"type": "Conveyor",
+	"name": "Scrap Conveyor",
+	"description": "A conveyor created from thin air.",
+	"health": 1,
+	"speed": 0.00666666666666666666667,
+	"requirements": [
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Advanced Solar Panel",
+	"description": "An extremely efficient solar panel. Requires specialized coolant to operate.",
+	"size": 3,
+	"health": 300,
+	"liquidCapacity": 50,
+	"itemCapacity": 0,
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"powerProduction": 6,
+	"consumes": {
+		"items": {
+			"items": [],
+			"optional": true
+		}
+		"liquid": {
+			"liquid": "solar-coolant", 
+			"amount": 0.05,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "plastanium", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 20 },
+		{ "item": "surge-alloy", "amount": 30 }
+	],
+	"category": "power"
+}

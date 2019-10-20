@@ -1,0 +1,11 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Reinforced Conveyor",
+	"description": "Moves items at the same speed as regular conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.",
+	"health": 90,
+	"speed": 0.03,
+	"requirements": [
+		{ "item": "copper", "amount": 1 },
+		{ "item": "lead", "amount": 1 }
+	]
+}

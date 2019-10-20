@@ -1,0 +1,12 @@
+{
+	"type": "Conveyor",
+	"name": "Plastanium Conveyor",
+	"description": "A faster, albeit fragile conveyor.",
+	"health": 20,
+	"speed": 0.12,
+	"requirements": [
+		{ "item": "graphite", "amount": 1 },
+		{ "item": "silicon", "amount": 1 },
+		{ "item": "plastanium", "amount": 1 }
+	]
+}
